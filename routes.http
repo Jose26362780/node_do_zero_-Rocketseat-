@@ -3,7 +3,7 @@ Content-Type: application/json
 
 
 {
-  "title":"Video novo",
+  "title":"Video novo01",
   "description":"Esse é o primeiro video",
   "duration":180
 }
@@ -31,4 +31,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/0d527a61-1cbd-4ff9-b503-afa7a9f2c3b4
+DELETE http://localhost:3333/videos/28f229a9-98ad-4e46-9d9d-9418c095d891
