@@ -1,9 +1,9 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-rocketseat.onrender.com/videos
 Content-Type: application/json
 
 
 {
-  "title":"Video novo01",
+  "title":"Video novo testando",
   "description":"Esse é o primeiro video",
   "duration":180
 }
@@ -13,17 +13,17 @@ Content-Type: application/json
 ###
 
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-rocketseat.onrender.com/videos
 
 
 ###
 
-PUT http://localhost:3333/videos/0d527a61-1cbd-4ff9-b503-afa7a9f2c3b4
+PUT https://node-do-zero-rocketseat.onrender.com/videos/95f01f8c-99b5-464e-9abe-1eb6e8fca2da
 Content-Type: application/json
 
 
 {
-  "title":"Video 021",
+  "title":"Video 01",
   "description":"Esse é o primeiro video",
   "duration":180
 }
@@ -31,4 +31,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/28f229a9-98ad-4e46-9d9d-9418c095d891
+DELETE https://node-do-zero-rocketseat.onrender.com/videos/2796b70f-cc4f-4ccc-9189-d7ed2878228e
